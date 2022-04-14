@@ -13,8 +13,8 @@ import java.util.concurrent.TimeUnit;
 public class DDBaseTest {
 
     public AndroidDriver<MobileElement> androidDriver;
-    public static String username = "ddepo.test@gmail.com";
-    public static String password = "Telekom123";
+    public static String username = "Your username";
+    public static String password = "Your password";
 
     @BeforeMethod
     public void setUp(){
