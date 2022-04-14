@@ -1,11 +1,12 @@
 package digitaldepo;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
 
 public class DDHomePage extends DDBasePage{
 
-    public DDHomePage(AndroidDriver androidDriver) {
+    public DDHomePage(AndroidDriver<MobileElement> androidDriver) {
         super(androidDriver);
         System.out.println("DDHomePage opened!");
     }
