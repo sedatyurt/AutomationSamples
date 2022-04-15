@@ -4,22 +4,22 @@ public class Rectangle {
     private int b;
 
     public int getA() {
-        System.out.println("GetA method called. A is " + a);
+        System.out.println("GetA method called. A is " + a + ".");
         return a;
     }
 
     public void setA(int a) {
-        System.out.println("SetA method called. A set " + a);
+        System.out.println("SetA method called. A set " + a + ".");
         this.a = a;
     }
 
     public int getB() {
-        System.out.println("GetB method called. B is " + b);
+        System.out.println("GetB method called. B is " + b + ".");
         return b;
     }
 
     public void setB(int b) {
-        System.out.println("SetB method called. B set " + b);
+        System.out.println("SetB method called. B set " + b + ".");
         this.b = b;
     }
 
